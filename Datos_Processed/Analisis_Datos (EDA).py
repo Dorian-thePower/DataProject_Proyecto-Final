@@ -7,7 +7,7 @@ pd.set_option('display.max_columns',None)
 # ===============================
 
 #Cargo el csv y creo un DataFrame.
-df_analisis = pd.read_csv(r'C:\Users\dgjer\OneDrive\Escritorio\Proyecto_Final\Datos_Processed\df_unido.csv')
+df_analisis = pd.read_csv("../Datos_Processed/df_unido.csv")
 df_analisis.head()
 
 # Reviso a modo de descripción los valores minimos, máximos, desv.estandar y percentiles de cada columna 
